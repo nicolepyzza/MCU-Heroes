@@ -1,15 +1,12 @@
 /* DashboardComponent's private CSS styles */
 
-h2 {
+/* h2 {
   text-align: center;
-}
+} */
 
 .heroes-menu {
   padding: 0;
-  margin: auto;
   max-width: 1000px;
-
-  /* flexbox */
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

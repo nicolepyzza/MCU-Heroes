@@ -1,10 +1,16 @@
 <div *ngIf="hero">
-  <h2>{{hero.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{hero.id}}</div>
+  <h2>{{hero.name | uppercase}}</h2>
+  <img src="{{hero.img}}" >
   <div>
-    <label for="hero-name">Hero name: </label>
-    <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
+    <p><b>ID: </b>{{hero.id}}</p>
+    <p><b>Hero name: </b>{{hero.name}}</p>
+    <p><b>Aliases: </b>{{hero.aliases}}</p>
+    <p><b>Species: </b>{{hero.species}}</p>
+    <p><b>Gender: </b>{{hero.gender}}</p>
+    <p><b>Affiliation: </b>{{hero.affiliation}}</p>
+    <p><b>Status: </b>{{hero.status}}</p>
+    <p><b>Skills: </b>{{hero.skills}}</p>
+    <p><b>Details: </b>{{hero.details}}</p>
   </div>
-  <button type="button" (click)="goBack()">go back</button>
-  <button type="button" (click)="save()">save</button>
+  <button type="button" (click)="goBack()">BACK</button>
 </div>
